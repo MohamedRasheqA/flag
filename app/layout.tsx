@@ -25,8 +25,8 @@ export default async function RootLayout({
   const flagsmithState = await flagsmith
     .init({
       // fetches flags on the server
-      environmentID: "heiEFz5x78igSLA8fGRgiP", // substitute your env ID
-      identity: "my_user_id", // specify the identity of the user to get their specific flags
+      environmentID: "W8joRdZrgXbGpnKk5uRN3j", // substitute your env ID
+      identity: "Mohamed Rasheq A", // specify the identity of the user to get their specific flags
     })
     .then(() => {
       return flagsmith.getState();
